@@ -1,0 +1,62 @@
+.experienceEducationContainer {
+  display: flex;
+  justify-content: column;
+  margin-top: 50px;
+}
+.header {
+  width: 30%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 30px 0px 100px;
+  font-weight: 700;
+}
+.description {
+  width: 70%;
+}
+.descriptionList {
+  padding-right: 100px;
+  display: flex;
+  margin-top: 40px;
+}
+.descriptionList div:nth-child(1) {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 30px;
+}
+.designation1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.subHeading {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--textColor);
+}
+.workDescription {
+  margin-top: 20px;
+  color: var(--textColor);
+  line-height: 1.2;
+}
+@media only screen and (max-width: 1100px) {
+  .experienceEducationContainer {
+    flex-direction: column;
+  }
+  .header {
+    box-sizing: border-box;
+    font-size: 30px;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+  .description {
+    width: 100%;
+  }
+  .descriptionList {
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+  }
+  .descriptionList div:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}

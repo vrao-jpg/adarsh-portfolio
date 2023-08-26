@@ -1,0 +1,7 @@
+:root {
+  --lightGray: #e0e0e1;
+  --textColor: #565656;
+}
+.App {
+  margin-top: 80px;
+}

@@ -1,0 +1,102 @@
+.aboutMeContainer {
+  display: flex;
+  height: 650px;
+}
+.contactCard {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--lightGray);
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.aboutMeCard {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 60px 0px 60px;
+  box-sizing: border-box;
+}
+.cardDiv1 {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutMeHeader {
+  font-size: 40px;
+  font-weight: 700;
+}
+.aboutMeDescription {
+  color: var(--textColor);
+  line-height: 1.2;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.imageStyle {
+  width: 200px;
+  height: 250px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.marginTop30 {
+  margin-top: 30px;
+}
+.socialLink {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.socialLink img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.nameStyle {
+  font-size: 32px;
+  font-weight: 700;
+}
+.designation {
+  margin-top: 20px;
+  font-size: 20px;
+  color: var(--textColor);
+}
+.buttonGroup {
+  height: 100px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  width: 100%;
+}
+@media only screen and (max-width: 1100px) {
+  .aboutMeContainer {
+    flex-direction: column;
+    height: auto;
+  }
+  .contactCard {
+    width: 100%;
+  }
+  .aboutMeCard {
+    padding: 0px 20px 0px 20px;
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .buttonGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttonGroup div:nth-child(2) {
+    margin-top: 20px;
+  }
+  .cardDiv1 {
+    height: auto;
+  }
+}

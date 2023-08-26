@@ -1,0 +1,45 @@
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.skillsHeader {
+  font-size: 40px;
+  display: flex;
+  padding: 40px 30px 0px 100px;
+  font-weight: 700;
+  width: 200px;
+}
+.skillsDescription {
+  padding: 40px 100px 0px 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skillsDescription div:nth-child(1) {
+  font-weight: bold;
+  font-size: 18px;
+}
+.skillProgress {
+  width: 200px;
+  margin-top: 10px;
+}
+.skillProgress .MuiLinearProgress-root {
+  height: 25px;
+}
+.progressContainer {
+  margin-right: 50px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 1100px) {
+  .skillsHeader {
+    padding: 40px 20px 0px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .skillsDescription {
+    padding: 40px 20px 0px 20px;
+  }
+  .skillProgress .MuiLinearProgress-root {
+    height: 10px;
+  }
+}
