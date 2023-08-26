@@ -7,3 +7,14 @@ export const scrollIntoViewWithOffset = (selector, offset) => {
       offset,
   });
 };
+
+export const mailTo = () => {
+  window.location = "mailto:vasudevrao822@gmail.com";
+};
+
+export const navigateToPage =
+  (url, newPage = true) =>
+  () => {
+    console.log("open");
+    window.open(url, newPage ? "_blank" : "");
+  };

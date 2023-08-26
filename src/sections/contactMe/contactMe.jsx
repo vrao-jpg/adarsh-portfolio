@@ -4,6 +4,13 @@ import "./contactMe.css";
 import linkedinIcon from "../../assets/linkedinIcon.svg";
 import githubIcon from "../../assets/githubIcon.svg";
 import instagramIcon from "../../assets/instagramIcon.svg";
+import { navigateToPage } from "../../util/util";
+import {
+  GITHUB_URL,
+  INSTAGRAM_URL,
+  LINKEDIN_URL,
+  PORTFOLIO_URL,
+} from "../../util/constants";
 
 function ContactMe(props) {
   return (
@@ -23,23 +30,26 @@ function ContactMe(props) {
               className="iconDimension"
               src={linkedinIcon}
               alt="linkedin icon"
+              onClick={navigateToPage(LINKEDIN_URL)}
             />
-            <img className="iconDimension" src={githubIcon} alt="Github icon" />
+            <img
+              className="iconDimension"
+              src={githubIcon}
+              alt="Github icon"
+              onClick={navigateToPage(GITHUB_URL)}
+            />
             <img
               className="iconDimension"
               src={instagramIcon}
-              alt="Github icon"
+              alt="Instagram icon"
+              onClick={navigateToPage(INSTAGRAM_URL)}
             />
           </div>
         </div>
       </div>
       <div className="copyright">
         Handcrafted by&nbsp;
-        <a
-          rel="nonreferrer noreferrer"
-          target="_blank"
-          href="http://localhost:3000"
-        >
+        <a rel="nonreferrer noreferrer" href={PORTFOLIO_URL}>
           Vasudev Rao
         </a>
         &nbsp;&copy; {new Date().getFullYear()}

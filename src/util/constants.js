@@ -85,3 +85,15 @@ export const SKILLS_DATA = [
     level: 60,
   },
 ];
+
+export const RESUME_URL =
+  "https://drive.google.com/file/d/15aIB2NEvuzPYi9RUX7txNB39iFnrhEDr/view?usp=sharing";
+
+export const PORTFOLIO_URL = "https://exquisite-pie-634e4a.netlify.app";
+
+export const LINKEDIN_URL = "https://www.linkedin.com/in/vasudevrao123/";
+
+export const GITHUB_URL = "https://github.com/vrao-jpg";
+
+export const INSTAGRAM_URL =
+  "https://instagram.com/vasudev_rao__?igshid=OGQ5ZDc2ODk2ZA==";

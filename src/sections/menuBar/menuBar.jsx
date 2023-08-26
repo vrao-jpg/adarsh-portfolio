@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import hamburgerIcon from "../../assets/hamburger.svg";
 import closeIcon from "../../assets/closeIcon.svg";
+import logo from "../../assets/logo.png";
 import "./menuBar.css";
 import { scrollIntoViewWithOffset } from "../../util/util";
 
@@ -16,7 +17,12 @@ function MenuBar(props) {
   return (
     <>
       <section className="menuBarContainer">
-        <div className="nameHolder">VASUDEV RAO</div>
+        <div className="nameHolder">
+          <div>
+            <img src={logo} alt="my logo" />
+          </div>
+          <div>VASUDEV RAO</div>
+        </div>
         <div className="menuList">
           <div onClick={navigateTo("AboutMe")}>ABOUT ME</div>
           <div onClick={navigateTo("ExperienceAndEducation")}>EXPERIENCE</div>

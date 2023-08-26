@@ -5,6 +5,7 @@
   display: flex;
   padding: 0px 100px 50px 100px;
   flex-direction: column;
+  box-shadow: 0 -10px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .contactMeContainer {
   display: flex;

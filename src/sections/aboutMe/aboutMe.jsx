@@ -5,6 +5,14 @@ import "./aboutMe.css";
 import linkedinIconDark from "../../assets/linkedinIconDark.svg";
 import githubIconDark from "../../assets/githubIconDark.svg";
 import instagramIconDark from "../../assets/instagramIconDark.svg";
+import { mailTo, navigateToPage } from "../../util/util";
+import {
+  RESUME_URL,
+  PORTFOLIO_URL,
+  LINKEDIN_URL,
+  GITHUB_URL,
+  INSTAGRAM_URL,
+} from "../../util/constants";
 
 function AboutMe() {
   return (
@@ -17,13 +25,23 @@ function AboutMe() {
           <div className="designation">Frontend Developer</div>
         </div>
         <div className="marginTop30">
-          <Button>Email Me</Button>
+          <Button onClick={mailTo}>Email Me</Button>
           <div className="socialLink">
-            <a href="http://localhost:3000">
-              <img src={linkedinIconDark} alt="linkedin icon" />
-            </a>
-            <img src={githubIconDark} alt="Github icon" />
-            <img src={instagramIconDark} alt="Github icon" />
+            <img
+              src={linkedinIconDark}
+              alt="linkedin icon"
+              onClick={navigateToPage(LINKEDIN_URL)}
+            />
+            <img
+              src={githubIconDark}
+              alt="Github icon"
+              onClick={navigateToPage(GITHUB_URL)}
+            />
+            <img
+              src={instagramIconDark}
+              alt="Instagram icon"
+              onClick={navigateToPage(INSTAGRAM_URL)}
+            />
           </div>
         </div>
       </div>
@@ -41,10 +59,12 @@ function AboutMe() {
         </div>
         <div className="buttonGroup">
           <div>
-            <Button>Resume</Button>
+            <Button onClick={navigateToPage(RESUME_URL)}>Resume</Button>
           </div>
           <div>
-            <Button>Portfolio</Button>
+            <Button onClick={navigateToPage(PORTFOLIO_URL, false)}>
+              Portfolio
+            </Button>
           </div>
         </div>
       </div>
