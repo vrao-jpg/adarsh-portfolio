@@ -1,3 +1,6 @@
+export const SIH_AWARD_URL =
+  "https://drive.google.com/file/d/1bGHR_p1jJc-8Od3RLvTNTSeC0vdnTnKr/view";
+
 export const EXPERIENCE_AND_EDUCATION_DATA = [
   {
     id: 1,
@@ -10,10 +13,10 @@ export const EXPERIENCE_AND_EDUCATION_DATA = [
   {
     id: 2,
     year: "2021",
-    heading: "Member of technical stall",
+    heading: "Member of technical staff",
     subHeading: "Axio (formely Capital float)",
     description:
-      "Worked on a web application for fully automated loans built on top of React. Successfully integrated third party services from razorpay, digilocker etc for different loan process like KYC, e-nach and esign.Developed web pages for EMI and dues repayment.",
+      "Worked on a web application for fully automated loans built on top of React. Successfully integrated third party services from razorpay, digilocker etc for different loan process like KYC, e-nach and esign. Developed web pages for EMI and dues repayment.",
   },
   {
     id: 3,
@@ -30,6 +33,7 @@ export const EXPERIENCE_AND_EDUCATION_DATA = [
     subHeading: "Trident academy of tecnology",
     description:
       "Won best innovation award under ministry of HRD in Smart India Hackathon 2017",
+    link: SIH_AWARD_URL,
   },
 ];
 
@@ -87,9 +91,9 @@ export const SKILLS_DATA = [
 ];
 
 export const RESUME_URL =
-  "https://drive.google.com/file/d/15aIB2NEvuzPYi9RUX7txNB39iFnrhEDr/view?usp=sharing";
+  "https://drive.google.com/file/d/17R4_dvkN-y5kaiqLekbutyCPZOlloZM2/view?usp=sharing";
 
-export const PORTFOLIO_URL = "https://exquisite-pie-634e4a.netlify.app";
+export const PORTFOLIO_URL = "https://vasudev-portfolio.netlify.app";
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/vasudevrao123/";
 

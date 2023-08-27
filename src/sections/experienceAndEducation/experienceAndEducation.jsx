@@ -1,6 +1,7 @@
 import React from "react";
 import { EXPERIENCE_AND_EDUCATION_DATA } from "../../util/constants";
 import "./experienceAndEducation.css";
+import { navigateToPage } from "../../util/util";
 
 function ExperienceAndEducation(props) {
   return (
@@ -16,7 +17,12 @@ function ExperienceAndEducation(props) {
             <div>
               <div className="designation1">{data.heading}</div>
               <div className="subHeading">{data.subHeading}</div>
-              <div className="workDescription">{data.description}</div>
+              <div
+                className={`workDescription ${data.link && "linkStyle"}`}
+                onClick={data.link && navigateToPage(data.link)}
+              >
+                {data.description}
+              </div>
             </div>
           </div>
         ))}

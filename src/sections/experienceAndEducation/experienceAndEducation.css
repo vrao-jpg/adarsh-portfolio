@@ -59,3 +59,8 @@
     margin-bottom: 10px;
   }
 }
+.linkStyle {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--textColor);
+}
