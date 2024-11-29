@@ -21,7 +21,7 @@ function MenuBar(props) {
           <div>
             <img src={logo} alt="my logo" />
           </div>
-          <div>VASUDEV RAO</div>
+          <div>Kumar Adarsh</div>
         </div>
         <div className="menuList">
           <div onClick={navigateTo("AboutMe")}>ABOUT ME</div>

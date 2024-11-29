@@ -9,7 +9,7 @@ export const scrollIntoViewWithOffset = (selector, offset) => {
 };
 
 export const mailTo = () => {
-  window.location = "mailto:vasudevrao822@gmail.com";
+  window.location = "mailto:kadarsh103.ak@gmail.com";
 };
 
 export const navigateToPage =

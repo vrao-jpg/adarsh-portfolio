@@ -21,9 +21,9 @@ function ContactMe(props) {
         </div>
         <div className="contactDescription">
           <div>Reach Out</div>
-          <div>Vasudev Rao</div>
-          <div>vasudevrao822@gmail.com</div>
-          <div>I bring code to Life !</div>
+          <div>Kumar Adarsh</div>
+          <div>kadarsh103.ak@gmail.com</div>
+          <div>I bring safety to Life !</div>
           <div>CONNECT WITH ME</div>
           <div>
             <img
@@ -50,7 +50,7 @@ function ContactMe(props) {
       <div className="copyright">
         Handcrafted by&nbsp;
         <a rel="nonreferrer noreferrer" href={PORTFOLIO_URL}>
-          Vasudev Rao
+          Vsudev Rao
         </a>
         &nbsp;&copy; {new Date().getFullYear()}
       </div>

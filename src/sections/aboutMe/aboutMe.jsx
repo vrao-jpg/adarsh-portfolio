@@ -20,9 +20,9 @@ function AboutMe() {
       <div className="contactCard">
         <div className="cardDiv1">
           <img src={myPic} alt="Vasudev pic" className="imageStyle" />
-          <div className="marginTop30 nameStyle">Vasudev Rao</div>
+          <div className="marginTop30 nameStyle">Kumar Adarsh</div>
           <div className="nameStyle">(He/His/Him)</div>
-          <div className="designation">Frontend Developer</div>
+          <div className="designation">SAFETY PROFESSIONAL</div>
         </div>
         <div className="marginTop30">
           <Button onClick={mailTo}>Email Me</Button>
@@ -49,12 +49,13 @@ function AboutMe() {
         <div className="cardDiv1">
           <div className="aboutMeHeader">About Me</div>
           <div className="aboutMeDescription">
-            I'm a Frontend focused Web Developer who code beautifully simple
-            things and who loves to create solid and scalable frontend products
-            with great user experiences. <br />
-            I'm open to Job opportunities where I can contribute, learn and
-            grow. If you have a good opportunity that matches my skills and
-            experience then don't hesitate to contact me.
+            I am a safety professional who has worked in different fields of
+            industrial vendors with different aspects of safety looking after
+            all CSMS & IMS relevant documents.
+            <br />I have keen interest in contributing and conducting SCM, MR &
+            OH&S management, conducting audit, preparation of JHA and RCRM.
+            Constant impreovement of my organisation has always been my top
+            priority.
           </div>
         </div>
         <div className="buttonGroup">
