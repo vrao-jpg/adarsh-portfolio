@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import hamburgerIcon from "../../assets/hamburger.svg";
 import closeIcon from "../../assets/closeIcon.svg";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/adarsh.jpg";
 import "./menuBar.css";
 import { scrollIntoViewWithOffset } from "../../util/util";
 

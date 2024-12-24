@@ -121,13 +121,14 @@ export const SKILLS_DATA = [
 ];
 
 export const RESUME_URL =
-  "https://drive.google.com/file/d/17R4_dvkN-y5kaiqLekbutyCPZOlloZM2/view?usp=sharing";
+  "https://drive.google.com/file/d/1WFXiFIFOj_ubDqoTruYZyU1J1MBJaTDk/view?usp=drivesdk";
 
-export const PORTFOLIO_URL = "https://vasudev-portfolio.netlify.app";
+export const PORTFOLIO_URL = "https://kumar-adarsh-portfolio.netlify.app/";
 
-export const LINKEDIN_URL = "https://www.linkedin.com/in/vasudevrao123/";
+export const LINKEDIN_URL =
+  "https://www.linkedin.com/in/kumar-adarsh-051b00117?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
 
 export const GITHUB_URL = "https://github.com/vrao-jpg";
 
 export const INSTAGRAM_URL =
-  "https://instagram.com/vasudev_rao__?igshid=OGQ5ZDc2ODk2ZA==";
+  "https://www.instagram.com/vermaaarsh/profilecard/?igsh=MWt1bXZ1cXR1cXFiYw==";

@@ -1,5 +1,5 @@
 import React from "react";
-import myPic from "../../assets/IMG-1822.png";
+import myPic from "../../assets/adarsh.jpg";
 import Button from "../../components/Button/button";
 import "./aboutMe.css";
 import linkedinIconDark from "../../assets/linkedinIconDark.svg";

@@ -1,5 +1,5 @@
 import React from "react";
-import myPic from "../../assets/IMG-1825.png";
+import myPic from "../../assets/adarsh-dark.jpg";
 import "./contactMe.css";
 import linkedinIcon from "../../assets/linkedinIcon.svg";
 import githubIcon from "../../assets/githubIcon.svg";
@@ -50,7 +50,7 @@ function ContactMe(props) {
       <div className="copyright">
         Handcrafted by&nbsp;
         <a rel="nonreferrer noreferrer" href={PORTFOLIO_URL}>
-          Vsudev Rao
+          Vasudev Rao
         </a>
         &nbsp;&copy; {new Date().getFullYear()}
       </div>
