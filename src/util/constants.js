@@ -128,7 +128,5 @@ export const PORTFOLIO_URL = "https://kumar-adarsh-portfolio.netlify.app/";
 export const LINKEDIN_URL =
   "https://www.linkedin.com/in/kumar-adarsh-051b00117?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
 
-export const GITHUB_URL = "https://github.com/vrao-jpg";
-
 export const INSTAGRAM_URL =
   "https://www.instagram.com/vermaaarsh/profilecard/?igsh=MWt1bXZ1cXR1cXFiYw==";

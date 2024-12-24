@@ -10,7 +10,6 @@ import {
   RESUME_URL,
   PORTFOLIO_URL,
   LINKEDIN_URL,
-  GITHUB_URL,
   INSTAGRAM_URL,
 } from "../../util/constants";
 
@@ -31,11 +30,6 @@ function AboutMe() {
               src={linkedinIconDark}
               alt="linkedin icon"
               onClick={navigateToPage(LINKEDIN_URL)}
-            />
-            <img
-              src={githubIconDark}
-              alt="Github icon"
-              onClick={navigateToPage(GITHUB_URL)}
             />
             <img
               src={instagramIconDark}

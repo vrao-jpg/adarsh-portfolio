@@ -6,7 +6,6 @@ import githubIcon from "../../assets/githubIcon.svg";
 import instagramIcon from "../../assets/instagramIcon.svg";
 import { navigateToPage } from "../../util/util";
 import {
-  GITHUB_URL,
   INSTAGRAM_URL,
   LINKEDIN_URL,
   PORTFOLIO_URL,
@@ -32,12 +31,7 @@ function ContactMe(props) {
               alt="linkedin icon"
               onClick={navigateToPage(LINKEDIN_URL)}
             />
-            <img
-              className="iconDimension"
-              src={githubIcon}
-              alt="Github icon"
-              onClick={navigateToPage(GITHUB_URL)}
-            />
+
             <img
               className="iconDimension"
               src={instagramIcon}
