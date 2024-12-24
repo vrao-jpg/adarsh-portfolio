@@ -3,7 +3,6 @@ import myPic from "../../assets/adarsh.jpg";
 import Button from "../../components/Button/button";
 import "./aboutMe.css";
 import linkedinIconDark from "../../assets/linkedinIconDark.svg";
-import githubIconDark from "../../assets/githubIconDark.svg";
 import instagramIconDark from "../../assets/instagramIconDark.svg";
 import { mailTo, navigateToPage } from "../../util/util";
 import {

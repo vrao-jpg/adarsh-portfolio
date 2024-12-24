@@ -2,7 +2,6 @@ import React from "react";
 import myPic from "../../assets/adarsh-dark.jpg";
 import "./contactMe.css";
 import linkedinIcon from "../../assets/linkedinIcon.svg";
-import githubIcon from "../../assets/githubIcon.svg";
 import instagramIcon from "../../assets/instagramIcon.svg";
 import { navigateToPage } from "../../util/util";
 import {
@@ -31,7 +30,6 @@ function ContactMe(props) {
               alt="linkedin icon"
               onClick={navigateToPage(LINKEDIN_URL)}
             />
-
             <img
               className="iconDimension"
               src={instagramIcon}
